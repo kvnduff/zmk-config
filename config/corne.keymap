@@ -6,6 +6,18 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
+    behaviors {
+        tapping_term {
+            compatible = "zmk,behavior-tap-hold";
+            label = "Tapping Term";
+            #binding-cells = <0>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+            hold-tap-ms = <150>;
+            permissive-hold = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
