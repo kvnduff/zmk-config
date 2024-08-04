@@ -32,7 +32,7 @@
 
         symbol {
             bindings = <
-&to 5      &kp EXCLAMATION  &kp ASTERISK     &kp HASH           &kp DOLLAR         &kp PERCENT     &kp CARET          &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &to 4
+&to 5      &kp EXCLAMATION  &kp AT_SIGN      &kp HASH           &kp DOLLAR         &kp PERCENT     &kp CARET          &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &to 4
 &kp LC(K)  &kp GRAVE        &kp TILDE        &kp DOUBLE_QUOTES  &kp APOSTROPHE     &kp PIPE        &kp MINUS          &kp UNDERSCORE  &kp EQUAL      &kp PLUS              &kp COLON              &kp RC(U)
 &none      &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp CAPSLOCK    &kp K_APPLICATION  &kp BACKSLASH   &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &none
                                              &kp HOME           &none              &kp END         &kp PAGE_DOWN      &none           &kp PAGE_UP
