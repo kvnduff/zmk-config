@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
 
 &led_strip {
   chain-length = <27>;
@@ -72,7 +73,7 @@
 
         system {
             bindings = <
-&sys_reset        &none  &none         &none         &out OUT_TOG&  &bt BT_CLR    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                   &rgb_ug RGB_SAI                   &rgb_ug RGB_BRI                    &rgb_ug RGB_HUI                   &to 0
+&sys_reset        &none  &none         &none         &out OUT_TOG   &bt BT_CLR    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                   &rgb_ug RGB_SAI                   &rgb_ug RGB_BRI                    &rgb_ug RGB_HUI                   &to 0
 &none             &none  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0   &none         &none            &rgb_ug RGB_EFR                   &rgb_ug RGB_SAD                   &rgb_ug RGB_BRD                    &rgb_ug RGB_HUD                   &none
 &ext_power EP_ON  &none  &none         &none         &none          &none         &none            &rgb_ug RGB_COLOR_HSB(22,100,50)  &rgb_ug RGB_COLOR_HSB(281,93,49)  &rgb_ug RGB_COLOR_HSB(326,100,52)  &rgb_ug RGB_COLOR_HSB(139,87,49)  &rgb_ug RGB_COLOR_HSB(198,90,50)
                                        &none         &none          &none         &none            &none                             &none
